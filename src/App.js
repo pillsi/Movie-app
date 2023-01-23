@@ -95,7 +95,7 @@ const App = () => {
   },[])
 
   return(
-    <div className='app'>
+    <div className='app'> 
       <h1>MovieLand</h1> 
       <div className='search'>
         <input 
@@ -109,7 +109,7 @@ const App = () => {
         />
       </div>
 
-      {movies.length > 0 ? (
+      {movies?.length > 0 ? (
         <div className='container'>
         {movies.map((movie)=>( //📝这里用{}和()的区别是什么？
         /* <div className='movie'>
