@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 // import App from './AppOriginal';
-import App from './AppPractise';
+// import App from './AppPractise';
+import App from './quoteGenerator';
+// import App from './numCounter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
